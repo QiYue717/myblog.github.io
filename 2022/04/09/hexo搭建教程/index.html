@@ -6,12 +6,12 @@
   
   <title>hexo搭建教程 | Hexo</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="Hexo个人博客搭建教程（手把手一步一步来）没有编程基础也可以做到😊相信自己重要：搭建前提你需要已经安装了NodeJS 重要：如果需要部署到 GitHub 则需要安装Git 编辑工具这里选择VsCode也可以是其他工具 安装hexo1npm install hexo-cli -g     这里是全局安装 懂npm的可自行发挥    创建文件夹博客搭建测试Test使用vscode打开进入该文件夹目">
+  <meta name="description" content="Hexo个人博客搭建教程（手把手一步一步来）没有编程基础也可以做到😊相信自己重要：搭建前提你需要已经安装了NodeJS 重要：如果需要部署到 GitHub 则需要安装Git 编辑工具这里选择VsCode也可以是其他工具 超详细文档（我自己的博客不一样只是因为换了主题，主题官方文档有哦）：https:&#x2F;&#x2F;qiyue717.github.io&#x2F;weilaiblog.github.io&#x2F; 安装hexo">
 <meta property="og:type" content="article">
 <meta property="og:title" content="hexo搭建教程">
 <meta property="og:url" content="https://qiyue717.github.io/2022/04/09/hexo%E6%90%AD%E5%BB%BA%E6%95%99%E7%A8%8B/index.html">
 <meta property="og:site_name" content="Hexo">
-<meta property="og:description" content="Hexo个人博客搭建教程（手把手一步一步来）没有编程基础也可以做到😊相信自己重要：搭建前提你需要已经安装了NodeJS 重要：如果需要部署到 GitHub 则需要安装Git 编辑工具这里选择VsCode也可以是其他工具 安装hexo1npm install hexo-cli -g     这里是全局安装 懂npm的可自行发挥    创建文件夹博客搭建测试Test使用vscode打开进入该文件夹目">
+<meta property="og:description" content="Hexo个人博客搭建教程（手把手一步一步来）没有编程基础也可以做到😊相信自己重要：搭建前提你需要已经安装了NodeJS 重要：如果需要部署到 GitHub 则需要安装Git 编辑工具这里选择VsCode也可以是其他工具 超详细文档（我自己的博客不一样只是因为换了主题，主题官方文档有哦）：https:&#x2F;&#x2F;qiyue717.github.io&#x2F;weilaiblog.github.io&#x2F; 安装hexo">
 <meta property="og:locale" content="en_US">
 <meta property="og:image" content="https://qiyue717.github.io/2022/04/09/hexo%E6%90%AD%E5%BB%BA%E6%95%99%E7%A8%8B/2022/04/09/hexo%E6%90%AD%E5%BB%BA%E6%95%99%E7%A8%8B/image-20220408183831176.png">
 <meta property="og:image" content="https://qiyue717.github.io/2022/04/09/hexo%E6%90%AD%E5%BB%BA%E6%95%99%E7%A8%8B/2022/04/09/hexo%E6%90%AD%E5%BB%BA%E6%95%99%E7%A8%8B/image-20220408184204299.png">
@@ -38,7 +38,7 @@
 <meta property="og:image" content="https://qiyue717.github.io/2022/04/09/hexo%E6%90%AD%E5%BB%BA%E6%95%99%E7%A8%8B/2022/04/09/hexo%E6%90%AD%E5%BB%BA%E6%95%99%E7%A8%8B/image-20220409001951933.png">
 <meta property="og:image" content="https://qiyue717.github.io/2022/04/09/hexo%E6%90%AD%E5%BB%BA%E6%95%99%E7%A8%8B/2022/04/09/hexo%E6%90%AD%E5%BB%BA%E6%95%99%E7%A8%8B/image-20220409003753678.png">
 <meta property="article:published_time" content="2022-04-08T16:20:20.000Z">
-<meta property="article:modified_time" content="2022-04-08T16:46:08.251Z">
+<meta property="article:modified_time" content="2022-04-08T23:36:48.040Z">
 <meta property="article:author" content="John Doe">
 <meta property="article:tag" content="1">
 <meta name="twitter:card" content="summary">
@@ -124,6 +124,7 @@
         <h1 id="Hexo个人博客搭建教程"><a href="#Hexo个人博客搭建教程" class="headerlink" title="Hexo个人博客搭建教程"></a>Hexo个人博客搭建教程</h1><h2 id="（手把手一步一步来）没有编程基础也可以做到😊相信自己"><a href="#（手把手一步一步来）没有编程基础也可以做到😊相信自己" class="headerlink" title="（手把手一步一步来）没有编程基础也可以做到😊相信自己"></a>（手把手一步一步来）没有编程基础也可以做到😊相信自己</h2><p><strong>重要：</strong>搭建前提你需要已经安装了<strong>NodeJS</strong></p>
 <p><strong>重要：</strong>如果需要部署到 <strong>GitHub</strong> 则需要安装<strong>Git</strong></p>
 <p>编辑工具这里选择<strong>VsCode</strong>也可以是其他工具</p>
+<p>超详细文档（我自己的博客不一样只是因为换了主题，主题官方文档有哦）：<a href="https://qiyue717.github.io/weilaiblog.github.io/">https://qiyue717.github.io/weilaiblog.github.io/</a></p>
 <h2 id="安装hexo"><a href="#安装hexo" class="headerlink" title="安装hexo"></a>安装hexo</h2><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-cli -g     这里是全局安装 懂npm的可自行发挥</span><br></pre></td></tr></table></figure>
 
 
@@ -237,7 +238,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://qiyue717.github.io/2022/04/09/hexo%E6%90%AD%E5%BB%BA%E6%95%99%E7%A8%8B/" data-id="cl1qnur730001g4toaepx1esr" data-title="hexo搭建教程" class="article-share-link">Share</a>
+      <a data-url="https://qiyue717.github.io/2022/04/09/hexo%E6%90%AD%E5%BB%BA%E6%95%99%E7%A8%8B/" data-id="cl1r2jmqu0001p4toa4jw4mh7" data-title="hexo搭建教程" class="article-share-link">Share</a>
       
       
       
